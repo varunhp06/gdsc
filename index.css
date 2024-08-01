@@ -167,14 +167,14 @@ iframe {
 .page{
     overflow: hidden;
     /* border: 2px solid red; */
-    background-image: url(../asset/page.jpg);
+    background-image: url(asset/page.jpg);
     background-size: cover;
     position: relative;
 }
 .pagee{
     overflow: hidden;
     /* border: 2px solid red; */
-    background-image: url(../asset/Sun.png);
+    background-image: url(asset/Sun.png);
     background-size: cover;
     position: relative;
 }
@@ -248,9 +248,7 @@ iframe {
     font-family: Orbitron;
     font-size: 80px;
 }
-.embark{
-    font-size: ;
-}
+
 .box1{
     height: 100vh;
 }
@@ -293,7 +291,6 @@ iframe {
     left:0;
     bottom: 10vh;
     height: 35vh;
-    width: ;
     /* max-height: 250px; */
     z-index: 2;
 }
@@ -492,7 +489,7 @@ iframe {
     
 }
 .planet2{
-    background: url(../asset/Mercury.png);
+    background: url(asset/Mercury.png);
     background-size: cover
     
 }
@@ -573,7 +570,7 @@ iframe {
     z-index: 3;
 }
 .venus{
-    background: url(../asset/Venus.png);
+    background: url(asset/Venus.png);
     background-size: cover;
     z-index: 3;
 }
@@ -632,7 +629,7 @@ iframe {
 }
 
 .earth{
-    background-image: url(../asset/Earth.png);
+    background-image: url(asset/Earth.png);
     /* background-size: ; */
 }
 .earthinfo{
@@ -715,11 +712,11 @@ iframe {
 }
 #ell3{
     width: 100vw;
-    position: absolute;bottom: ;
+    position: absolute;
     bottom: 0;
 }
 .mars{
-    background: url(../asset/Venus.png);
+    background: url(asset/Venus.png);
     background-size: cover;
 }
 
@@ -730,7 +727,6 @@ iframe {
     gap: 20px;
     max-width: 40vw;
     min-width: 30vw;
-    z-index: ;
 }
 .marstiles{
     display: flex;
@@ -804,7 +800,7 @@ iframe {
 }
 
 .jupiter{
-    background: url(../asset/Sun.png);
+    background: url(asset/Sun.png);
     background-size: cover;
    padding-bottom: 10vh;
 }
@@ -1397,7 +1393,6 @@ footer{
     .mercury{
         flex-direction: column;
         left: 0;
-        gap: ;
     }
 
     .planame{
@@ -1467,9 +1462,7 @@ footer{
     .gettoknow{
         font-size: min(7vh,8vw);
     }
-    .embark{
-        font-size: min;
-    }
+
 }
 @media(min-width:1500px){
     #herop3{
