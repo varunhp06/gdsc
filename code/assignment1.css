@@ -167,14 +167,14 @@ iframe {
 .page{
     overflow: hidden;
     /* border: 2px solid red; */
-    background-image: url(page.jpg);
+    background-image: url(../asset/page.jpg);
     background-size: cover;
     position: relative;
 }
 .pagee{
     overflow: hidden;
     /* border: 2px solid red; */
-    background-image: url(Sun.png);
+    background-image: url(../asset/Sun.png);
     background-size: cover;
     position: relative;
 }
@@ -492,7 +492,7 @@ iframe {
     
 }
 .planet2{
-    background: url(Mercury.png);
+    background: url(../asset/Mercury.png);
     background-size: cover
     
 }
@@ -573,7 +573,7 @@ iframe {
     z-index: 3;
 }
 .venus{
-    background: url(Venus.png);
+    background: url(../asset/Venus.png);
     background-size: cover;
     z-index: 3;
 }
@@ -632,7 +632,7 @@ iframe {
 }
 
 .earth{
-    background-image: url(Earth.png);
+    background-image: url(../asset/Earth.png);
     /* background-size: ; */
 }
 .earthinfo{
@@ -719,7 +719,7 @@ iframe {
     bottom: 0;
 }
 .mars{
-    background: url(Venus.png);
+    background: url(../asset/Venus.png);
     background-size: cover;
 }
 
@@ -804,7 +804,7 @@ iframe {
 }
 
 .jupiter{
-    background: url(Sun.png);
+    background: url(../asset/Sun.png);
     background-size: cover;
    padding-bottom: 10vh;
 }
