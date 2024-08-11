@@ -45,6 +45,7 @@ body{
     padding: 0;
     color: white;
     font-family:Inter;   
+    overflow-x:hidden;
 }
 .menu{
     position: fixed;
