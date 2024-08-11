@@ -541,7 +541,7 @@ async function main() {
             // Using transform scale to scale the footer
             const newval = scaleval / val2;
             animatedObject.style.transform = `scale(${newval})`;
-            if (newval >= 1) {
+            if (newval >= 0.9) {
                 document.querySelector(".footer2").classList.add("visible");
             } else {
                 document.querySelector(".footer2").classList.remove("visible");
